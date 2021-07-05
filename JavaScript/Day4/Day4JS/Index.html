@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+</head>
+<body>
+
+
+    <!--
+        1=>
+        <button id="btn">btn</button>
+
+    <div id="div"></div>
+
+    <script>
+        document.getElementById("btn").onclick = function () {
+            document.getElementById("div").innerHTML = "Hello JS";
+        }
+    </script>-->
+    <!--
+        2=>
+        <button onclick="document.getElementById('div').innerHTML = Date()">btn</button>
+
+    <div id="div"></div>
+        -->
+    <!--
+        3=>
+        <p>Click The Following Button To See Result</p>
+
+    <form>
+        <input type="button" onclick="SayHello()" value="Say Hello" />
+    </form>
+
+    <script>
+        function SayHello() {
+            alert("Hello");
+        }
+    </script>-->
+    <!--
+        4=>
+        <div>
+        <form>
+           Enter Your Name : <input type="text" onchange="ShowText()" id="text" />
+        </form>
+    </div>
+    <br />
+    <hr />
+    <br />
+
+
+    <script>
+        function ShowText() {
+            var text = document.getElementById("text");
+            text.value = text.value.toUpperCase();
+        }
+    </script>-->
+    <!--
+        5=>
+        <input id="btn" type="button" value="Change()"/>
+
+    <p id="p"></p>
+
+    <script>
+
+        document.getElementById("btn").addEventListener("click", ChangeP);
+
+        function ChangeP() {
+            document.getElementById("p").innerText = "ABC";
+        }
+    </script>-->
+    <!--<input type="button" value="ABC" id="btn"/>
+
+    <div id="div">
+        ABC
+    </div>
+
+    <script>
+
+        var div = document.getElementById("btn");
+        div.onmouseover = ChangeStyle();
+
+        function ChangeStyle() {
+            document.getElementById("div").style.backgroundColor = "red";
+        }
+    </script>-->
+
+    <!--slice
+    <script>
+        let T = "123456789";
+
+        T = T.slice(-5, -1);
+        console.log(T);
+    </script>-->
+    
+        <!--6=>
+    <script>
+        let T = "123456789";
+
+        console.log("indexOf : " + T.indexOf('5'));
+
+
+        console.log("Search : " + T.search("56"));
+
+        console.log("substr : " + T.substr(2, 6));
+
+        console.log("replace : " + T.replace('1', '100'));
+
+         T = "   1   ";
+        console.log("trim : " + T.trim())
+    </script>-->
+    <!--
+
+        <p id="p">
+    </p>
+
+    <script>
+        var Array = ["A", "B", "C"];
+
+
+        document.getElementById("p").innerHTML = Array[0];
+
+
+        console.log(Array.sort());
+    </script>-->
+
+
+
+    <!--7=>
+    <input type="button" onclick="PushToArray()" value="PushToArray" />
+    Before : <p id="PBefore"></p>
+    After : <p id="PAfter"></p>
+
+    <input type="text" id="Text" value="Text"/>
+    <input type="button" value="Remove" onclick="Remove()"/>
+
+    <script>
+
+
+        var Fruits = ["Banana", "Orange", "Strawberry"];
+
+        document.getElementById("PBefore").innerHTML = Fruits;
+
+        function PushToArray() {
+            Fruits.push("Lemon");
+            document.getElementById("PAfter").innerHTML = Fruits;
+            console.log(Fruits);
+        }
+
+
+    </script>-->
+
+
+
+
+</body>
+</html>

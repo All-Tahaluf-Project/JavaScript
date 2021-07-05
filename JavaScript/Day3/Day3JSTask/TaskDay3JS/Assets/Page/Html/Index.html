@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+
+    <link rel="stylesheet" href="../Package/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+
+    <style>
+        .bgcolor {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bgcolor">
+            <p>Hi Tahaluf Traineers</p>
+        </div>
+        <div class="bgcolor">
+            <p>We Are Happy To Have You</p>
+        </div>
+        <div class="bgcolor">
+            <p>You Are Our Future Developers</p>
+        </div>
+
+        <input type="button" onclick="ChangeBackground()" value="ChangeBackground" />
+        <br />
+        <hr />
+        <br />
+        <input type="button" onclick="Changecolor()" value="Changecolor" />
+    </div>
+
+    <script>
+
+
+
+        function Changecolor()
+        {
+            var PByElement = document.getElementsByTagName("p");
+
+            for (var i = 0; i < PByElement.length; i++) {
+                PByElement[i].style.color = "darkblue";
+            }
+        }
+
+
+        function ChangeBackground()
+        {
+            var PByClass = document.getElementsByClassName("bgcolor");
+
+            for (var i = 0; i < PByClass.length; i++) {
+                PByClass[i].style.background = "#002bff";
+            }
+        }
+
+
+
+
+    </script>
+
+    <script src="../Package/jQuery/JQ.main.js"></script>
+    <script src="../Package/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

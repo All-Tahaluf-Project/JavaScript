@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProjectJS", "FinalProjectJS.csproj", "{07CFC0F9-E6EF-4721-8C77-DF5A11A67EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07CFC0F9-E6EF-4721-8C77-DF5A11A67EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CFC0F9-E6EF-4721-8C77-DF5A11A67EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CFC0F9-E6EF-4721-8C77-DF5A11A67EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CFC0F9-E6EF-4721-8C77-DF5A11A67EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DBFD79F-E730-4073-BDBB-2290700E4783}
+	EndGlobalSection
+EndGlobal

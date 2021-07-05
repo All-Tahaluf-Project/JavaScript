@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+
+
+    <link rel="stylesheet" href="../Package/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../Package/fontawesome-free-5.15.1-web/css/all.min.css">
+
+    <link href="../Package/SweetAlert/SweetAlert.css" rel="stylesheet" />
+    <script src="../Package/SweetAlert/SweetAlert.js"></script>
+
+    <link rel="stylesheet" href="Css.css" />
+    <script type="text/JavaScript">
+        function showMessage() {
+            var message = document.getElementById("message").value;
+            display_message.innerHTML = message;
+        }
+    </script>
+</head>
+<body>
+
+    <img src="../Img/pexels-polina-zimmerman-3747516.jpg" class="bg">
+
+    <div class="row" id="Boxform">
+        <div class="col-12">
+            <div class="formContainer container">
+    <!--<form class="col-md-12 Form" id="form" onsubmit="return Submit();">-->
+    <form class="col-md-12 Form" id="form" onsubmit="return Submit()">
+
+                    <img class="img" src="../Img/education.png">
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" required id="FirstName" class="TXTBox" placeholder="First Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" required id="LastName" class="TXTBox" placeholder="LastName">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="number" required id="Number" class="TXTBox" placeholder="Number">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" required id="Email" class="TXTBox" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="file" onchange="CheckPDF()" required id="FilePDF">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="file" onchange="CheckImage()" required id="img">
+                        </div>
+                    </div>
+
+                    <hr>
+                    <input type="submit" class="btn" value="Submit" />
+                    <input type="reset" class="btn" value="Clear" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="Boxtextarea row">
+        <div class="col-12">
+            <div class="formContainer container">
+                <textarea style="width: 100%;" id="textarea" cols="4" rows="3">
+    </textarea>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!--<form action="" method="post">
+        <input type="text" name="fname" required>
+        <input type="submit" value="Submit">
+    </form>
+    <p>
+        If you click submit, without filling out the text field,
+        your browser will display an error message.
+    </p>-->
+
+
+
+
+
+
+
+    <!--<button type="button" onclick="pageRedirect()">Go to Tutorial Republic</button>
+            <p><strong>Note:</strong> You can go to the tutorialrepublic.com by clicking the button above. You can get back to this page by clicking the browser back button.</p>
+
+        <script>
+            function pageRedirect() {
+                window.location.href = "https://www.tutorialrepublic.com/";
+            }
+        </script>
+    -->
+
+    <script src="Js.js"></script>
+
+    <script src="../Package/jQuery/JQ.main.js"></script>
+    <script src="../Package/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
